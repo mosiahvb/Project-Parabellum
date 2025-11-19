@@ -10,6 +10,14 @@ to become a true professional in this field while helping others learn, experime
 
 ---
 
+## Projects
+
+### Upcoming Projects:
+- **[SOC Lab Report](Security/SOC_lab.md)** - Setting up monitoring and detection
+- **[AI Fundamentals Lab](AI/AI_fundamentals_lab.md)** - Lab project revolving around understanding AI fundamentals
+
+---
+
 ## Lab Infrastructure
 
 My homelab is built on **Proxmox** running multiple virtual machines that simulate a real enterprise environment. Think of it as my personal cyber battlefield where I can safely break things and learn how they work!

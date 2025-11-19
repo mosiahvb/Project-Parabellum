@@ -12,7 +12,6 @@ to become a true professional in this field while helping others learn, experime
 
 ## Projects
 
-### Upcoming Projects:
 - **[SOC Lab Report](Security/SOC_lab.md)** - Setting up monitoring and detection
 - **[AI Fundamentals Lab](AI/AI_fundamentals_lab.md)** - Lab project revolving around understanding AI fundamentals
 

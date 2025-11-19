@@ -10,44 +10,40 @@ to become a true professional in this field while helping others learn, experime
 
 ---
 
-## 🏗️ Lab Infrastructure
+## Lab Infrastructure
 
 My homelab is built on **Proxmox** running multiple virtual machines that simulate a real enterprise environment. Think of it as my personal cyber battlefield where I can safely break things and learn how they work!
 
-### 🖥️ The Setup
+### The Setup
 | VM | Purpose | Status | Key Features |
 |---|---|---|---|
-| **🐉 Kali Linux** | Attack platform | 🟢 Running | Penetration testing, security auditing |
-| **🎯 Metasploitable 2** | Vulnerable target | 🟢 Running | Practice environment, DVWA hosted |
-| **💻 Windows 11** | Domain workstation | 🟢 Running | Joined to LAB.local domain |
-| **🏢 Windows Server 2025** | Domain Controller | 🟢 Running | AD DS, AD CS, user management |
+| **Kali Linux** | Attack platform | 🟢 Running | Penetration testing, security auditing |
+| **Metasploitable 2** | Vulnerable target | 🟢 Running | Practice environment, DVWA hosted |
+| **Windows 11** | Domain workstation | 🟢 Running | Joined to LAB.local domain |
+| **Windows Server 2025** | Domain Controller | 🟢 Running | AD DS, AD CS, user management |
 
 
 ![Description of image](assets/images/home_lab_diagram.png)
 
 ---
 
-## 🎯 What I've Built (So Far!)
+## What I've Built (So Far!)
 
-### ✅ Active Directory Environment
+### Active Directory Environment
 Built a fully functional Windows domain environment from scratch:
-- ✅ Configured Windows Server 2025 as Domain Controller
-- ✅ Installed Active Directory Domain Services (AD DS)
-- ✅ Installed Active Directory Certificate Services (AD CS)
-- ✅ Created domain users (LAB\Wick)
-- ✅ Joined Windows 11 workstation to domain
+- Configured Windows Server 2025 as Domain Controller
+- Installed Active Directory Domain Services (AD DS)
+- Installed Active Directory Certificate Services (AD CS)
+- Created domain users
+- Joined Windows 11 workstation to domain
 
 **Why this matters:** Understanding Active Directory is crucial for both defense (securing it) and offense (attacking it). Most enterprise environments use AD, so this gives me real-world experience.
 
-## 🔐 Projects
-
-> 📁 *Project documentation coming soon! Each project will include detailed writeups, screenshots, and lessons learned.*
+## Projects
 
 ### Upcoming Projects:
-- **SOC Build** - Setting up monitoring and detection
-- **AD Attack & Defense** - Red vs Blue team scenarios  
-- **Web App Penetration Testing** - DVWA exploitation
-- **Network Security** - Firewall rules, segmentation, monitoring
+- **[SOC Lab Report](Security/SOC_lab.md)** - Setting up monitoring and detection
+- **[AI Fundamentals Lab](AI/AI_fundamentals_lab.md)** - Lab project revolving around understanding AI fundamentals
 
 ---
 

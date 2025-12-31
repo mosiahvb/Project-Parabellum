@@ -1,5 +1,9 @@
 import subprocess
+import optparse
 
+parser = optparse.OptionParser()
+parser.add_option('-i', '--interface', dest='interface', help='Interface to change MAC adddress')
+parser.add_option('-')
 interface = input('please enter the interface name(wlan0, ):')
 new_mac = input('please enter the new MAC address(00:11:22:33:44:55): ')
 

@@ -3,9 +3,14 @@ import optparse
 
 parser = optparse.OptionParser()
 parser.add_option('-i', '--interface', dest='interface', help='Interface to change MAC adddress')
-parser.add_option('-')
-interface = input('please enter the interface name(wlan0, ):')
-new_mac = input('please enter the new MAC address(00:11:22:33:44:55): ')
+parser.add_option('-m', '--mac', dest='new_mac', help='new MAC adress')
+
+(options, arguments) = parser.parse_args()
+
+interface = options.interface
+new_mac = options.new_mac
+
+print(f'[+] changing MAC address for {interface} to {new_mac}')
 
 # option 1: not secure allows shell injection(the user can enter malicious commands)
 subprocess.call(f'ifconfig {interface} down', shell=True)
